@@ -49,7 +49,7 @@ export class ChatComponent implements OnInit {
   isLoading: boolean = true;
   user: any;
 
-  msgs: MyMsg[] = [
+  messages: MyMsg[] = [
     {
       text: '',
       createdAt: Timestamp.fromDate(new Date()),
@@ -59,13 +59,13 @@ export class ChatComponent implements OnInit {
     },
   ];
 
-  msgsLoader: { text: string; uid: string }[] = [
+  messagesLoader: { text: string; uid: string }[] = [
   ];
 
   ngOnInit(): void {
     this.user = this.userService.getCurrentUser()
 
-    this.msgsLoader = [
+    this.messagesLoader = [
 
       {
         text: this.generateRandomLetters(),
@@ -107,7 +107,7 @@ export class ChatComponent implements OnInit {
 
 
     this.msgService.listMsg().subscribe((resp) => {
-      this.msgs = resp;
+      this.messages = resp.reverse();
       this.isLoading = false;
       setTimeout(() => { this.scrollToTheLastElementByClassName(); }, 800)
     });

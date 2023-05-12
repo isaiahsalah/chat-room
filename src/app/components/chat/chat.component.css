@@ -1,6 +1,5 @@
 :host {
   height: 100%;
-
   display: grid;
   scrollbar-width: thin;
   scrollbar-color: #444351 #444351;
@@ -21,15 +20,15 @@
   border-radius: 5px;
 }
 #chat-room-messages {
+  display: grid;
+  min-width: 600px;
   scroll-behavior: smooth;
-
   padding-inline: 20px;
   gap: 8px;
   overflow-y: auto;
   overflow-x: hidden;
   margin-top: 70px;
   margin-bottom: 70px;
-  display: grid;
   flex-shrink: 0;
   flex-direction: column;
   height: auto;
@@ -38,6 +37,7 @@
 }
 .message {
   display: flex;
+  width: 600px;
   align-items: center;
   gap: 10px;
 }
@@ -64,9 +64,6 @@
   order: -1;
 }
 
-.recibido .text {
-}
-
 .enviado .text-loader:before {
   border-right-color: transparent;
   border-left-color: #444351;
@@ -91,7 +88,7 @@
 }
 
 .text {
-  font-size: 12px;
+  font-size: 13px;
   color: #2d2c36;
   background-color: #ece7eb;
   border-radius: 10px;
@@ -111,7 +108,7 @@
 
 .text-loader {
   display: flex;
-  font-size: 12px;
+  font-size: 13px;
   color: transparent;
   background-color: #444351;
   border-radius: 10px;

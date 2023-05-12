@@ -16,7 +16,7 @@ export class MsgService {
   }
 
   listMsg(): Observable<MyMsg[]> {
-    const msgRef = query(collection(this.firestore, 'msg'), orderBy('createdAt'), limit(15));
+    const msgRef = query(collection(this.firestore, 'msg'), orderBy('createdAt', 'desc'), limit(15));
     return collectionData(msgRef, { idField: 'id' }) as Observable<MyMsg[]>;
   }
 }
