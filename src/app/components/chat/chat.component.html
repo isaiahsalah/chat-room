@@ -1,0 +1,15 @@
+<div id="chat-room-messages" *ngIf="isLoading" @mgsEnter>
+    <div class="message" [ngClass]="(user.uid===item.uid)?'enviado':'recibido'" *ngFor="let item of msgsLoader">
+        <div class="profile-photo-loader"></div>
+        <div class="text-loader">{{ item.text }}</div>
+
+    </div>
+</div>
+<div id="chat-room-messages" *ngIf="!isLoading" @mgsEnter>
+    <div class="message" [ngClass]="(user.uid===item.uid)?'enviado':'recibido'" *ngFor="let item of msgs">
+        <img class="profile-photo" [src]="item.photoURL"
+            onerror="this.onerror=null; this.src='https://i.pinimg.com/736x/5a/72/89/5a7289876a1a543e829a22840f6f941d.jpg';" />
+        <div class="text">{{ item.text }}</div>
+
+    </div>
+</div>

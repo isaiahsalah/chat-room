@@ -1,0 +1,135 @@
+:host {
+  height: 100%;
+
+  display: grid;
+  scrollbar-width: thin;
+  scrollbar-color: #444351 #444351;
+  transition: all 0.5s ease-out;
+}
+
+#chat-room-messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chat-room-messages::-webkit-scrollbar-thumb {
+  background-color: #2d2c36;
+  border-radius: 5px;
+}
+
+#chat-room-messages::-webkit-scrollbar-track {
+  background-color: #22222c;
+  border-radius: 5px;
+}
+#chat-room-messages {
+  scroll-behavior: smooth;
+
+  padding-inline: 20px;
+  gap: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: grid;
+  flex-shrink: 0;
+  flex-direction: column;
+  height: auto;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile-photo {
+  height: 32px;
+  width: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.profile-photo-loader {
+  height: 32px;
+  width: 32px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #444351;
+}
+
+.enviado {
+  justify-content: right;
+}
+.enviado .text,
+.enviado .text-loader {
+  order: -1;
+}
+
+.recibido .text {
+}
+
+.enviado .text-loader:before {
+  border-right-color: transparent;
+  border-left-color: #444351;
+  right: -16px;
+}
+.recibido .text-loader:before {
+  border-right-color: #444351;
+  border-left-color: transparent;
+  left: -16px;
+}
+
+.enviado .text:before {
+  border-right-color: transparent;
+  border-left-color: #ece7eb;
+  right: -16px;
+}
+
+.recibido .text:before {
+  border-right-color: #ece7eb;
+  border-left-color: transparent;
+  left: -16px;
+}
+
+.text {
+  font-size: 12px;
+  color: #2d2c36;
+  background-color: #ece7eb;
+  border-radius: 10px;
+  padding: 8px 16px;
+  position: relative;
+  max-width: 60%;
+}
+.text:before {
+  border: 10px solid #ece7eb;
+  content: "";
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+
+  position: absolute;
+  top: calc(50% - 10px);
+}
+
+.text-loader {
+  display: flex;
+  font-size: 12px;
+  color: transparent;
+  background-color: #444351;
+  border-radius: 10px;
+  padding: 8px 16px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 60%;
+}
+.text-loader:before {
+  border: 10px solid #444351;
+  content: "";
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+
+  position: absolute;
+  top: calc(50% - 10px);
+}

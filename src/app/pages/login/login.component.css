@@ -1,11 +1,9 @@
-:host {
+.login-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   max-width: 650px;
-  background-color: #22222c;
-  color: #ece7eb;
 }

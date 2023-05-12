@@ -1,0 +1,64 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  max-width: 650px;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #22222c;
+  gap: 10px;
+}
+
+input {
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #2d2c36;
+  color: #ece7eb;
+  padding: 0 10px;
+  font-size: 15px;
+}
+input:focus {
+  border: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  aspect-ratio: 1/1;
+  transition: all 0.25s ease-out;
+  cursor: pointer;
+  background-color: #2d2c36;
+  position: relative;
+}
+.send {
+  position: absolute;
+  width: 25px;
+}
+
+button:hover {
+  background-color: #d94167;
+  border-radius: 50%;
+}
+
+button:active {
+  transform: scale(0.9);
+}

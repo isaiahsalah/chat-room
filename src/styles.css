@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #444351;
+  color: #ece7eb;
+  font-family: monospace;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: #22222c;
+  background-color: #ece7eb;
+  padding: 8px 20px;
+  transition: all 0.25s ease-out;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #d94167;
+  color: #ece7eb;
+}

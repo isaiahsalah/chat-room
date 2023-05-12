@@ -1,0 +1,23 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 35px;
+  font-weight: bold;
+}
+.author {
+  font-size: 12px;
+  color: #ffc1cb;
+}
+.logo-app {
+  height: 250px;
+}

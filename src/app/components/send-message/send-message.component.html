@@ -1,0 +1,6 @@
+<div class="bottom">
+    <input [(ngModel)]="textMessage" type="text" [placeholder]="'Decí algo UwU'" (keydown.enter)="button.click()" />
+    <button #button (click)="sendMsg()">
+        <img class="send" src="assets/images/send.png" />
+    </button>
+</div>
