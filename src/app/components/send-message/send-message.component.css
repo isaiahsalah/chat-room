@@ -22,7 +22,7 @@
 input {
   height: 45px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   outline: none;
   background-color: #2d2c36;

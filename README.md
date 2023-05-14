@@ -92,10 +92,8 @@ Puedes ver el sitio web en vivo 👉🏻[aquí](http://www.isaias.work/)
 
 # 👋🏻 Contacto
 
-Si estás interesado en trabajar conmigo o simplemente quieres decir hola, puedes contactarme a través de [isasalas145@gmail.com](mailto:isasalas145@gmail.com), [Whatsapp](https://api.whatsapp.com/send?phone=59170881108&text=%20) o [Twitter](https://twitter.com/isaiahSalah).
+Si estás interesado en trabajar conmigo o simplemente quieres decir hola, puedes contactarme a través de [isasalas145@gmail.com](mailto:isasalas145@gmail.com), [Linkedin](https://www.linkedin.com/in/isaiahsalah/), [Whatsapp](https://api.whatsapp.com/send?phone=59170881108&text=%20) o [Twitter](https://twitter.com/isaiahSalah).
 
 ¡Gracias por tu visita! 🫶🏻🤓
 
-![UwU](https://i.giphy.com/media/jUwpNzg9IcyrK/giphy.webp)
-
-👁️👄👁️
+![UwU](https://i.giphy.com/media/zvqHXpg6jGOvm/giphy.webp)
