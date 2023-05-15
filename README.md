@@ -37,21 +37,12 @@
    npm install
    ```
 
-3. **Variables de Entorno**
-
-   Una vez que se hayan instalado las dependencias, ejecuta este comando para crear la carpeta y archivos de variables de entorno.
-
-   ```sh
-   # Ejecuta este comando en la raíz de tu proyecto Angular para crear los archivos de configuraciond e variables de entorno.
-   ng g environments
-   ```
-
-4. **Credenciales de Firebase**
+3. **Credenciales de Firebase**
 
    Crea un nuevo proyecto en Firebase y configura las credenciales de tu proyecto en el archivo src/environments/environment.ts y src/environments/environment.development.ts
 
    ```sh
-   # Configura tus credenciales de la siguiente manera.
+   # Copia tus credenciales.
    export const environment = {
     firebase: {
         projectId: 'TU-ID-DE-PROYECTO',
@@ -65,7 +56,7 @@
     };
    ```
 
-5. **Ejecutar**
+4. **Ejecutar**
 
    Una vez que se hayan instalado las dependencias, ejecuta este comando para iniciar la aplicación.
 
@@ -74,7 +65,7 @@
    ng serve
    ```
 
-6. **Abrir**
+5. **Abrir**
 
    Abre tu navegador y ve a http://localhost:4200 para ver el sitio web.
 
