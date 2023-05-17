@@ -4,7 +4,7 @@
   🅰️🔥Chat Room🔥🅰️
 </h1>
 <p align="center">
-    Este es un 👉🏻<a href="http://www.isaias.work"> 
+    Este es un 👉🏻<a href="https://chat-room-gules.vercel.app/"> 
     chat room</a>, una aplicación web que permite a los usuarios iniciar sesión en la utilizando sus credenciales de Google, y luego unirse a una sala de chat en la que pueden enviar y recibir mensajes en tiempo real. La aplicación utiliza Firebase como base de datos para almacenar los mensajes y la información de usuario, y Angular para la interfaz de usuario y la lógica de la aplicación.</p>
 
 <p align="center">
@@ -79,7 +79,7 @@ La aplicación de chat room incluye las siguientes funcionalidades:
 
 # 🫣 Uso
 
-Puedes ver el sitio web en vivo 👉🏻[aquí](http://www.isaias.work/)
+Puedes ver el sitio web en vivo 👉🏻[aquí](https://chat-room-gules.vercel.app/)
 
 # 👋🏻 Contacto
 
